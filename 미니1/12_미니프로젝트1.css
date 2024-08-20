@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'CoolGuy-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/CoolGuy-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 5%;
+    font-family: 'CoolGuy-Medium';
+    
+  }
+  
+  html,
+  body {
+    margin: auto;
+    padding: auto;
+    background-image: url(보노1.png) ;
+    background-size: auto;
+    
+  }
+  
+  #container {
+    width: 640px;
+    margin: 60px auto 0; /* 좌우 여백을 동일하게 */
+    border-radius: 15px;
+    text-align: center;
+    
+  }
+  
+  form {
+    padding: 10px;
+    border: 4px dashed rgb(14, 129, 206);
+    border-radius: 20px;
+    width: 600px;
+    background-image: url(보노보노.jfif);
+    background-size: cover;
+    margin: auto;
+    
+    
+  }
+  
+  .table {
+    width: 400px;
+    margin: auto;
+    
+  }
+  
+  th {
+    width: 40%;
+    text-align: right;
+    padding: 5px;
+
+
+    
+    
+  }
+  
+  td {
+    width: 60%;
+    text-align: left;
+    padding-left: 5px;
+  }
+  
+  input, select, textarea {
+    width: 200px;
+    padding: 5px;
+    border: rgb(14, 129, 206) 3px dashed;
+  }
+  
+  input[type="radio"]{
+    width: initial;
+  }
+  
+  input[type="submit"], input[type="reset"]{
+    width: 80px;
+  }
+  
+  textarea {
+    resize: none;
+    width: 240px;
+    min-height: 100px;
+  }
+  
+  .buttons {
+    margin: 10px 0 0 0;
+    text-align: center;
+  }
+
+  input[type="text"]::placeholder,
+  input[type="password"]::placeholder{
+    color: cornflowerblue;
+    font-weight: bold;
+    font-style: oblique;
+  }
+  
